@@ -1,70 +1,588 @@
 :root {
-    --yasil:#54d154;
+    --yasil: #54d154;
 }
 
-header{
- display: flex;
- justify-content: space-between;
- flex-direction: column;
- height: 100vh;
- color: #fff;
- text-align: center;
-background: url('../img/headerbg.jpg') center/cover;
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 100vh;
+    color: #fff;
+    text-align: center;
+    background: url('../img/headerbg.jpg') center/cover;
 }
-#menu  li a{
-font: 1em "Proxima Nova",bold;
-color: #fff;
-padding: 30px 5px;
+
+#menu li a {
+    font: 1em "Proxima Nova", bold;
+    color: #fff;
+    padding: 30px 5px;
 
 }
-#search{
+
+#search {
     display: flex;
     justify-content: center;
-    
+
 }
-#search input ,#search button{
+
+#search input,
+#search button {
     background: #ffffffcc;
     height: 27px;
     padding: 6px 15px;
 }
-#search input{border-radius: 15px 0 0 15px;}
-#search button{border-radius: 0 15px 15px 0;}
-#search button img{height: 14px;}
 
-#title h1{
-font: 2em "Montserrat";
-font-weight: 700;
-color: #ffffff;
+#search input {
+    border-radius: 15px 0 0 15px;
 }
-#scroll{
-    display: inline-block;
-    padding: 5px;
+
+#search button {
+    border-radius: 0 15px 15px 0;
+}
+
+#search button img {
+    height: 14px;
+}
+
+#title h1 {
+    font: 2em "Montserrat";
+    font-weight: 700;
+    color: #ffffff;
+}
+
+#scroll {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 30px;
     border-radius: 15px 15px;
     color: black;
     background-color: #c4c1c2;
     opacity: 70%;
 }
 
-#title a{
+#title a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    width: 210px;
+    height: 48px;
+    background-color: var(--yasil);
+    font: 1.3em 'Proxima Nova';
+    text-transform: uppercase;
+}
+
+main section {
+    padding: 60px 0;
     text-align: center;
-    font:22px "Proxima Nova";
-    margin-top: 40px;
-    padding: 10px 2px;
-    display: inline-block;
-    height: 49px;
-    width: 207px;
+
+}
+
+#block1 {
+    padding: 44px;
+
+}
+
+#block1 article {
+    padding: 22px 15px;
+}
+
+#block1 article i {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 140px;
+    height: 140px;
+    font-size: 4.3em;
+    border-radius: 28px;
+    background: #e0f3e0;
+    color: var(--yasil);
+
+}
+
+#block1 p {
+    font: 1em "Montserrat";
+    color: #828181;
+    padding: 0 0 20px 0;
+}
+
+#block1 a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 30px;
+    border-radius: 16px;
+    background-color: var(--yasil);
+    font: 1.1em 'Proxima Nova';
+    color: #fff
+}
+
+hr {
+    width: 43px;
+    height: 2px;
+    background-color: #207b20;
+    margin: 10px auto;
+}
+
+h1 {
+    font: 700 2em Montserrat;
+    text-align: center;
+}
+
+h3 {
+    font: 24px "Proxima Nova" bold;
+    color: #828181;
+    padding: 20px;
+}
+
+h2 {
+    font: 300 1.2em Montserrat;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #207b20;
+}
+
+h6 {
+    font: 300 1em 'Open Sans';
+    color: #2b9b2b;
+}
+
+#btn1 {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+
+}
+
+#btn1 button {
+    height: 33px;
+    border: 1px solid #2b9b2b;
+    font-size: 1em 'Proxima Nova';
+    padding: 7px 20px
+}
+
+#gallery {
+    width: 100%;
+    margin: 5px 0;
+}
+
+#sectmain a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 190px;
+    height: 40px;
+    margin: 20px;
     border-radius: 15px 15px;
-    background: #54d154;
+    color: #fff;
+    font: .9em "Proxima Nova";
+    background-color: #2b9b2b;
+}
+
+#sectmain1 p {
+    font: 1em "Proxima Nova";
+    color: #444;
+    display: inline-flex;
+    justify-content: space-between;
+    padding: 20px;
+
+}
+
+#sectmain1 .coment img {
+    width: 60x;
+    height: 60px;
+    border-radius: 50%;
+    padding: 5px;
+    border: 1px solid #c4c1c2;
+
+}
+
+#sectmain1 .coment {
+    align-items: center;
+    display: inline-flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.text2 {
+    padding: 5px;
+}
+
+
+#sectmain1 .coment h6 {
+    text-align: left;
+    font: 1em "Proxima Nova", bold;
+    color: #cccccc;
+    margin-bottom: 3px;
+}
+
+#sectmain1 #ceo {
+    font: 1em "Proxima Nova", bold;
+    padding: 0 0;
+    color: #cccccc;
+
+
+}
+
+#sectmain1 .sectmain1top {
+    display: inline-flex;
+    align-items: center;
+    margin: 15px;
+    justify-content: center;
+}
+
+#sectmain1 .sectmain1top #button1,
+#button2 {
+    border: none;
+    background: transparent;
+}
+
+#sectmain2 .card1 hr {
+    display: inline-block;
+    border: 2px solid #1f7b1f;
+    width: 0;
+    height: 77px;
+
+}
+
+#sectmain2 .card1 {
+   display: flex;
+  align-items: center;
+  justify-content:center;
+  flex-direction: column;
+  padding: 15px;
+  flex-wrap: wrap-reverse;
+}
+
+
+#sectmain2 .card1 img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    background: #fff;
+}
+
+#sectmain2 .card1 h6 {
+    font: 1em "Proxima Nova";
+    color: #fff;
+
+}
+#sectmain2 .card1 .social{   background: #c5e9c5;
+    border-radius: 10px 10px;
+    margin: 8px 8px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;}
+    
+    #sectmain2 .card1 .social img{
+    margin: 5px;
+    width: 20px;
+    display: inline-flex;
+    height: 20px;
+    object-fit: cover;
+    padding: 0;
+    }
+/*
+ #sectmain2 .card1 #icons #social{
+    background: #c5e9c5;
+    border-radius: 10px 10px;
+    margin: 8px 8px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#sectmain2 .card1   #icons  #social{
+    margin: 5px;
+    width: 20px;
+    display: inline-flex;
+    height: 20px;
+    object-fit: cover;
+    padding: 0;
+}
+
+*/
+#btn1 button:first-child {
+    border-radius: 17px 0 0 17px;
+}
+
+#btn1 button:last-child {
+    border-radius: 0 17px 17px 0;
+}
+
+#btn1 button:hover,
+#btn1 button.active {
+    background: #2b9b2b;
+    color: #fff;
+}
+
+.bgyasil {
+    background-color: var(--yasil)
+}
+
+.bgag {
+    background-color: #fff
+}
+
+.bgboz {
+    background-color: #f1f1f1
+}
+
+.bgag hr,
+.bgboz hr {
+    background-color: #818181
+}
+
+.bgag h2,
+.bgboz h2 {
+    color: #818181
+}
+
+.bgag h6,
+.bgboz h6 {
+    color: #b3b3b3
+}
+
+#company {
+    padding: 37px;
+    display: inline-flex;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+}
+
+#company img {
+    object-fit: contain;
+    width: 150px;
+    height: 55px;
+    margin: 15px 15px;
+}
+
+.bgboz #see {
+    font: 18px "Proxima Nova";
+    color: #a59d9d;
+    background: #dddcdc;
+}
+
+.bgboz #see:hover {
+    background: #2b9b2b;
+    color: #fff;
+}
+
+ footer #fots{
+    background: #3eba3e;
+    max-width: 1132px;
+    height: 92px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer #fots a{
+    background: #53d153;
+    color: #fff;
+    width: 170px;
+    height: 43px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 2px 2px #38a938;
+    transition: .2s;
+    font: 19px "Proxima Nova";
+    border-radius: 10px 10px;
+
+
+}
+footer #fots a:hover{
+    background: #f0f0f0;
+    color: #000000;
+}
+
+footer{
+ background: #444;
+ height: 100vh;
+
+}
+#about1 {
+flex-direction: column;
+display: inline-flex;
+align-items: center;
+justify-content: center;
+flex-wrap: wrap;
+padding: 17px;
+
+}
+#about2 {
+flex-direction: column;
+display: inline-flex;
+align-items: center;
+justify-content: center;
+flex-wrap: wrap;
+padding: 17px;
+
+}
+#about1 h2{
+    font: 1em   "Montserrat" ;
+    letter-spacing: 3px;
+    color: #dddddd;
+
+}
+#about1 p{
+
+font-size: 16px;
+color: #cccccc;
+font-family: "Proxima Nova";
+text-align: center;
+}
+footer #about1 hr{
+    background: #dddddd;
+}
+footer #about1 #abouticons {
+    background: #c5e9c5;
+    border-radius: 10px 10px;
+    margin: 8px 8px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+}
+footer #about1 #abouticons img{
+    
+    margin: 5px;
+    width: 20px;
+    display: inline-flex;
+    height: 20px;
+    object-fit: cover;
+    padding: 0;
 }
 /* Desktop version */
-@media only screen and (min-width: 768px){
-    nav{
+@media only screen and (min-width: 768px) {
+    nav {
         display: flex;
         justify-content: space-between;
     }
-    
-    #menu{
+
+    #menu {
         display: flex;
         order: -1;
+    }
+
+    #menu li {
+        padding: 0 10px;
+    }
+
+    #menu li a {
+        display: inline-block;
+        padding: 5px 0;
+        border-top: 5px solid #0000;
+    }
+
+    #menu li :hover,
+    #menu li a.active {
+        border-top: 5px solid var(--yasil)
+    }
+
+    h1 {
+        font-size: 3.4em
+    }
+
+    #block1 {
+        display: flex;
+    }
+
+    #gallery {
+        max-width: 980px;
+        display: flex;
+        margin: auto;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #gallery img {
+        width: 160px;
+        object-fit: cover;
+        height: 160px;
+        margin: 15px;
+    }
+
+    #sectmain1 .sectmain1top {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #sectmain1 p {
+        font: 2.2em "Proxima Nova";
+        color: #444;
+        display: flex;
+        padding: 20px;
+
+    }
+
+    #sectmain1 .coment img {
+        width: 60x;
+        height: 60px;
+        border-radius: 50%;
+        padding: 5px;
+        border: 1px solid #c4c1c2;
+
+    }
+
+    #company {
+        margin-top: 17px;
+        display: flex;
+        justify-content: space-around;
+        max-width: 950px;
+    }
+
+    #company img {
+        object-fit: contain;
+        width: 150px;
+        height: 55px;
+    }
+
+    #sectmain1 .coment {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        margin: auto;
+    }
+
+    .text2 {
+        padding: 5px;
+    }
+
+    #sectmain1 .coment h6 {
+        font: 1em "Proxima Nova", bold;
+        color: #cccccc;
+        margin-bottom: 3px;
+    }
+
+    #sectmain1 #ceo {
+        font: 1em "Proxima Nova", bold;
+        color: #cccccc;
+
+
+    }
+
+#sectmain2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+    #sectmain2 .card1 {
+        display: flex;
+        align-items: center;
+        justify-self: unset;ce
+        
+        
     }
 }
