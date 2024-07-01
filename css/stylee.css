@@ -7,6 +7,7 @@ header {
     justify-content: space-between;
     flex-direction: column;
     height: 100vh;
+    padding: 20px;
     color: #fff;
     text-align: center;
     background: url('../img/headerbg.jpg') center/cover;
@@ -48,12 +49,14 @@ header {
     font: 2em "Montserrat";
     font-weight: 700;
     color: #ffffff;
+    padding: 9px;
 }
 
 #scroll {
     display: inline-flex;
     align-items: center;
     justify-content: center;
+    margin: 40px auto;
     width: 120px;
     height: 30px;
     border-radius: 15px 15px;
@@ -291,27 +294,7 @@ h6 {
     padding: 0;
 }
 
-/*
- #sectmain2 .card1 #icons #social{
-    background: #c5e9c5;
-    border-radius: 10px 10px;
-    margin: 8px 8px;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
 
-}
-
-#sectmain2 .card1   #icons  #social{
-    margin: 5px;
-    width: 20px;
-    display: inline-flex;
-    height: 20px;
-    object-fit: cover;
-    padding: 0;
-}
-
-*/
 #btn1 button:first-child {
     border-radius: 17px 0 0 17px;
 }
@@ -419,8 +402,9 @@ h6 {
 }
 footer{
     background: #333333;
+  
 }
-footer .mainbottom{
+ .mainbottom{
     margin: auto;
     width: 100%;
     height: 90px;
@@ -429,7 +413,7 @@ footer .mainbottom{
     align-items: center;
     justify-content: center;
 }
-footer .mainbottom a{
+.mainbottom a{
     display: inline-flex;
     width: 180px;
     height: 50px;
@@ -441,169 +425,239 @@ footer .mainbottom a{
     color: #fff;
     transition: .2s ease-in;
 }
-footer .mainbottom a:hover{
+.mainbottom a:hover{
     background: #fff;
     color: black;
 
-}
-footer .about{
-    margin: 10px 6px;
+} 
+.mediaicon {
+    text-align: center;
+    background-color: #c5e9c5;
+    padding-top: 5px;
+    width: 80px;
+    height: 25px;
+    border-radius: 10px;
+    margin: auto;
+  }
+  .mediaicon i {
+    padding: 0 1px;
+  }
+  .mediaicon i:first-child {
+    color: red;
+  }
+  .mediaicon i:nth-child(2) {
+    color: blue;
+  }
+  .mediaicon i:nth-child(3) {
+    color: #00abed;
+  }
+  
+  .mediaicon i {
+    border-radius: 50%;
+  }
+  .scroll4 {
+    background-color: #3eba3e;
+    width: 100%;
+    height: 100px;
+    position: relative;
+    top: 60px;
+  }
+  .scroll4 button {
+    position: absolute;
+    background-color: #53d153;
+    color: #fff;
+    text-transform: uppercase;
+    bottom: 30px;
+  }
+
+  .all {
+    padding: 30px 0;
+    background-color: #333;
+   
+  }
+  .about,
+  .recent,
+  .contact {
+    padding: 20px 0;
+  }
+  .all hr {
+    background-color: #ddd;
+  }
+  .all .medias {
+    background-color: #fff;
+    margin: auto;
+  }
+  .about h4{
+    text-align: center;
+    font: 1em "Montserrat";
+    letter-spacing: 3px;
+    color: #dddddd;
+  }
+  .about p {
+    font-size: 16px;
+    color: #ccc;
+    font-family: "Proxima Nova";
+    margin: auto;
+    line-height: 20px;
+  }
+  .magazins {
+    margin-top: 20px;
+  }
+ 
+  .recent img {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .recent .magazins {
+    display: flex;
+  }
+  .recent h4{
+    text-align: center;
+    font: 1em "Montserrat";
+    letter-spacing: 3px;
+    color: #dddddd;}
+  .magazins .text {
     display: inline-flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-footer .tops{
-    margin: 10px 6px;
+    align-items: start;
+    font-size: 16px;
+    color: #cccccc;
+    font-weight: 300;
+    font-family: "Montserrat";
+    margin-left: 5px;
+  }
+  .magazins a:first-child {
+    text-transform: capitalize;
+    color: #ffffff;
+  }
+  .magazins a:last-child {
+    background-color: #53d153;
+    color: #ffffff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-top: 5px;
+  }
+  .card1 a:last-child {
+    background-color: #ffba00;
+    color: #ffffff;
+  }
+  .card2 a:last-child {
+    background-color: #089cea;
+    color: #ffffff;
+  }
+  .card3 a:last-child {
+    background-color: #f34c03;
+    color: #ffffff;
+  }
+  .magazins .text  a:hover{
+    background: #fff;
+    color: black;
+ }
+
+  .contact {
+    text-align: center;
+    
+  }
+  .contact p {
+    padding: 2px;
+    color: #ddd;
+  }
+  .contact h4{
+    text-align: center;
+    font: 1em "Montserrat";
+    letter-spacing: 3px;
+    color: #dddddd;
+
+
+  }
+  .contact form {
+    width: 350px;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-
-}
-footer .tops h6{
-    font: 1em "Montserrat";
-    letter-spacing: 3px;
-    color: #ddd;
-}
-footer .about h6{
-    font: 1em "Montserrat";
-    letter-spacing: 3px;
-    color: #ddd;
-}
-footer .about,.posts,#contact p{
-color: #cccccc;
-font:1em  "Proxima Nova";
-text-align: center;
-}
-footer #fotcont ,#contact p{
-color: #cccccc;
-font: 14px  "Proxima Nova";
-text-align: center;
-}
-#contact form{
-    margin: 7px;
-display: inline-flex;
-align-items: center;
-justify-content: center;
-flex-direction: column;
- 
-}
-#contact form #input1{
-    width: 320px;
-    height: 36px;
-    padding: 5px 3px;
-    color:#868686;
-    border-radius: 5px 5px 0 0 ;
-    margin: 2px;
-}
-#contact form input{
-    width: 320px;
-    height: 36px;
-    padding: 5px 3px;
-    color:#868686;
-    margin: 2px;
-}
-#contact form #message{
-    width: 320px;
+    margin: auto;
+    padding-top: 10px;
+  }
+  .contact form input {
+    height: 30px;
+    margin-bottom: 5px;
+    background-color: #ffffff;
+    color: #fff;
+  }
+  .contact form .input1 {
+  
+    border-radius:  5px  5px  0  0;
+    
+  }
+  form textarea {
     height: 130px;
-}
-#contact form #send{
-    width: 320px;
-    height: 34px;
-    background: #2b9b2b;
+    background-color: #ffffff;
+    color: #fff;
+  }
+  form #submit {
+    display: inline-block;
+    height: 30px;
+    background-color: #2b9b2b;
+    margin-top: 2px;
+    color: #fff;
+    border-radius:0 0 5px  5px;
+    cursor: pointer;
+  }
+  form #submit:hover{
+    background: #fff;
+    color: black;
+    transition: .2s;
+  }
+
+  .news {
+    background-color: #212121;
+  }
+  .newsblock1 h4 {
+    padding: 27px 0 0 0;
+    color: black;
+    text-align: center;
+    font: 1em "Montserrat";
+  }
+  .newsblock1 hr {
+    background-color: black;
+  }
+  #newsImages {
+    padding: 20px 0 30px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  #newsImages img {
+    padding: 10px 0;
+  }
+  
+  #copyrght {
+    background-color: #111;
+  }
+  #copyrght p {
+    font: 1rem "Proxima Nova";
     color: #fff;
     text-align: center;
-}
-footer .about .icon{
-    width: 85px;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    margin: 12px;
-    background: #c5e9c5;
-    border-radius: 15px 15px;
-}
-footer .about .icon img{
-    width: 20px;
-    height: 20px;
-    object-fit: cover;
-    margin: 4px;
-}
-footer .about hr{background: #ddd;}
-footer .posts hr{background: #ddd;}
-footer .tops,#contact hr{background: #ddd;}
-
-footer .posts,#contact{
-    margin: 10px 6px;
-    display: flex;
-    flex-direction:column;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content:space-between;
-}
-footer .posts2{
-    margin: 10px 6px;
-    display: flex;
-    flex-direction:column;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content:space-between;
-}
-footer .posts2 img{
-width: 50px;
-height: 50px;
-object-fit: cover;
-border-radius: 5px 5px;
-margin: 8px;
-}
-footer .posts img{
-width: 50px;
-height: 50px;
-object-fit: cover;
-border-radius: 5px 5px;
-margin: 8px;
-}
-footer .posts,#contact h6{
-    color: #cccccc;
-    font:1em  "Proxima Nova";
-    text-align: center
-}
-footer .posts2 a{
-    margin: 2px 2px;
-   display: inline-flex;
-   align-items: center;
-   justify-content: center;
-   background: #53d153;
-   color: #fff;
-   border-radius: 5px 5px;
-   width: 80px;
-   height: 20px;
-}
-footer .posts h6{
-    color: #cccccc;
-    font:1em  "Proxima Nova";
-    text-align: center
-}
-footer .posts a{
-    margin: 2px 2px;
-   display: inline-flex;
-   align-items: center;
-   justify-content: center;
-   background: #53d153;
-   color: #fff;
-   border-radius: 5px 5px;
-   width: 80px;
-   height: 20px;
-}
-
+    padding: 10px 0;
+  }
 /* Desktop version */
 @media only screen and (min-width: 768px) {
     nav {
         display: flex;
         justify-content: space-between;
     }
-
+    #scroll {
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        margin: 40px auto;
+        width: 120px;
+        height: 30px;
+        border-radius: 15px 15px;
+        color: black;
+        background-color: #c4c1c2;
+        opacity: 70%;
+    }
     #menu {
         display: flex;
         order: -1;
@@ -616,6 +670,7 @@ footer .posts a{
     #menu li a {
         display: inline-block;
         padding: 5px 0;
+        margin:5px;
         border-top: 5px solid #0000;
     }
 
@@ -706,162 +761,19 @@ footer .posts a{
 
 
     }
-    footer{
-        background: #333333;
-    }
-    #fotcont{
+    .all {
         display: flex;
-        align-content:center ;
-        justify-content: center;
-        flex-direction: row;
-        margin: auto;
-    }
-    footer .mainbottom{
-        margin: auto;
-        width: 100%;
-        height: 90px;
+        justify-content: space-around;
+        padding: 20px;
+      }
+      .about p {
+        width: 260px;
+        padding: 5px;
+      }
+      #newsblock1Images {
         display: flex;
-        background: #3eba3e;
+        justify-content: space-around;
         align-items: center;
-        justify-content: center;
-    }
-    footer .mainbottom a{
-        display: inline-flex;
-        width: 180px;
-        height: 50px;
-        background: #53d153;
-        align-items: center;
-        justify-content: center;
-        border-radius: 15px 15px;
-        font: 19px  "Proxima Nova";
-        color: #fff;
-        transition: .2s ease-in;
-    }
-    footer .mainbottom a:hover{
-        background: #fff;
-        color: black;
-    
-    }
-    footer .about{
-        margin: 10px 6px;
-        display: inline-flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-    footer #fotcont .tops{
-        margin: auto;
-        display: flex;
-        background: red;
-        flex-direction: column
-  
-    
-    }
-    footer #fotcont #contact{
-        margin: auto;
-        display: flex;
-        flex-direction: column;
-  
-    
-    }
-    footer #fotcont .tops h6{
-        font: 1em "Montserrat";
-        letter-spacing: 3px;
-        color: #ddd;
-    }
-    footer #fotcont .about h6{
-        font: 1em "Montserrat";
-        letter-spacing: 3px;
-        color: #ddd;
-    }
-     #fotcont #contact h6{
-        font: 1em "Montserrat";
-        letter-spacing: 3px;
-        color: #ddd;
-    }
-    footer #fotcont .about,.posts p{
-    color: #cccccc;
-    font:1em  "Proxima Nova";
-    text-align: center
-    }
-    footer #fotcont .about .icon{
-        width: 85px;
-        display: inline-flex;
-        align-items: center;
-        justify-content: center;
-        margin: 12px;
-        background: #c5e9c5;
-        border-radius: 15px 15px;
-    }
-    footer #fotcont .about .icon img{
-        width: 20px;
-        height: 20px;
-        object-fit: cover;
-        margin: 4px;
-    }
-    footer #fotcont .about hr{background: #ddd;}
-    footer #fotcont .posts hr{background: #ddd;}
-    footer #fotcont .tops hr{background: #ddd;}
-    footer #fotcont #contact hr{background: #ddd;}
-    
-    footer #fotcont .posts{
-        margin: 10px 6px;
-        display: inline-flex;
-        flex-direction:row-reverse;
-        align-items: center;
-        justify-content:center;
-    }
- 
-
-    footer #fotcont .posts img{
-    width: 50px;
-    height: 50px;
-    object-fit: cover;
-
-    float: left;
-    border-radius: 5px 5px;
-    margin: 8px;
-    }
-    footer #fotcont .posts h6{
-        color: #cccccc;
-        font:1em  "Proxima Nova";
-    float: right;
-    }
-    footer #fotcont .posts2 a{
-        margin: 2px 2px;
-       display: inline-flex;
-       align-items: center;
-       justify-content: center;
-       background: #53d153;
-       color: #fff;
-       border-radius: 5px 5px;
-       width: 80px;
-       height: 20px;
-    }
-    footer #fotcont .posts h6{
-        color: #cccccc;
-        font:1em  "Proxima Nova";
-        text-align: center
-    }
-    footer #fotcont .posts a{
-        margin: 2px 2px;
-       display: inline-flex;
-       align-items: center;
-       justify-content: center;
-       background: #53d153;
-       color: #fff;
-       border-radius: 5px 5px;
-       width: 80px;
-       height: 20px;
-    }
-    
-    footer #fotcont .banner img{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin: 50px;
-       width: 1170px;
-       object-fit: cover;
-    }
+      }
     
 }
