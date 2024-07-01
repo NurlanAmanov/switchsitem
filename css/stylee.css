@@ -250,12 +250,12 @@ h6 {
 }
 
 #sectmain2 .card1 {
-   display: flex;
-  align-items: center;
-  justify-content:center;
-  flex-direction: column;
-  padding: 15px;
-  flex-wrap: wrap-reverse;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 15px;
+    flex-wrap: wrap-reverse;
 }
 
 
@@ -272,21 +272,25 @@ h6 {
     color: #fff;
 
 }
-#sectmain2 .card1 .social{   background: #c5e9c5;
+
+#sectmain2 .card1 .social {
+    background: #c5e9c5;
     border-radius: 10px 10px;
     margin: 8px 8px;
     display: inline-flex;
     align-items: center;
-    justify-content: center;}
-    
-    #sectmain2 .card1 .social img{
+    justify-content: center;
+}
+
+#sectmain2 .card1 .social img {
     margin: 5px;
     width: 20px;
     display: inline-flex;
     height: 20px;
     object-fit: cover;
     padding: 0;
-    }
+}
+
 /*
  #sectmain2 .card1 #icons #social{
     background: #c5e9c5;
@@ -376,92 +380,223 @@ h6 {
     color: #fff;
 }
 
- footer #fots{
-    background: #3eba3e;
-    max-width: 1132px;
-    height: 92px;
-    padding: 15px;
-    display: flex;
+.person{
+    margin: 15px 8px;
+    display: inline-flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
-footer #fots a{
-    background: #53d153;
-    color: #fff;
-    width: 170px;
-    height: 43px;
-    display: flex;
+.person hr{
+    width: 2px;
+    height: 80px;
+}
+.person .icon{
+    width: 85px;
+    display: inline-flex;
     align-items: center;
     justify-content: center;
-    box-shadow: 2px 2px 2px #38a938;
-    transition: .2s;
-    font: 19px "Proxima Nova";
-    border-radius: 10px 10px;
-
-
-}
-footer #fots a:hover{
-    background: #f0f0f0;
-    color: #000000;
-}
-
-footer{
- background: #444;
- height: 100vh;
-
-}
-#about1 {
-flex-direction: column;
-display: inline-flex;
-align-items: center;
-justify-content: center;
-flex-wrap: wrap;
-padding: 17px;
-
-}
-#about2 {
-flex-direction: column;
-display: inline-flex;
-align-items: center;
-justify-content: center;
-flex-wrap: wrap;
-padding: 17px;
-
-}
-#about1 h2{
-    font: 1em   "Montserrat" ;
-    letter-spacing: 3px;
-    color: #dddddd;
-
-}
-#about1 p{
-
-font-size: 16px;
-color: #cccccc;
-font-family: "Proxima Nova";
-text-align: center;
-}
-footer #about1 hr{
-    background: #dddddd;
-}
-footer #about1 #abouticons {
+    margin: 6px;
     background: #c5e9c5;
     border-radius: 10px 10px;
-    margin: 8px 8px;
+}
+.person .icon img{
+    width: 20px;
+    height: 20px;
+    margin: 2px;
+}
+.person h6{
+    font: 1em "Proxima Nova";
+    color: #fff;
+
+}
+.person img{
+    border-radius: 50%;
+    background: #fff;
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+}
+footer{
+    background: #333333;
+}
+footer .mainbottom{
+    margin: auto;
+    width: 100%;
+    height: 90px;
     display: inline-flex;
+    background: #3eba3e;
+    align-items: center;
+    justify-content: center;
+}
+footer .mainbottom a{
+    display: inline-flex;
+    width: 180px;
+    height: 50px;
+    background: #53d153;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px 15px;
+    font: 19px  "Proxima Nova";
+    color: #fff;
+    transition: .2s ease-in;
+}
+footer .mainbottom a:hover{
+    background: #fff;
+    color: black;
+
+}
+footer .about{
+    margin: 10px 6px;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+footer .tops{
+    margin: 10px 6px;
+    display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 
 }
-footer #about1 #abouticons img{
-    
-    margin: 5px;
-    width: 20px;
+footer .tops h6{
+    font: 1em "Montserrat";
+    letter-spacing: 3px;
+    color: #ddd;
+}
+footer .about h6{
+    font: 1em "Montserrat";
+    letter-spacing: 3px;
+    color: #ddd;
+}
+footer .about,.posts,#contact p{
+color: #cccccc;
+font:1em  "Proxima Nova";
+text-align: center;
+}
+footer #fotcont ,#contact p{
+color: #cccccc;
+font: 14px  "Proxima Nova";
+text-align: center;
+}
+#contact form{
+    margin: 7px;
+display: inline-flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+ 
+}
+#contact form #input1{
+    width: 320px;
+    height: 36px;
+    padding: 5px 3px;
+    color:#868686;
+    border-radius: 5px 5px 0 0 ;
+    margin: 2px;
+}
+#contact form input{
+    width: 320px;
+    height: 36px;
+    padding: 5px 3px;
+    color:#868686;
+    margin: 2px;
+}
+#contact form #message{
+    width: 320px;
+    height: 130px;
+}
+#contact form #send{
+    width: 320px;
+    height: 34px;
+    background: #2b9b2b;
+    color: #fff;
+    text-align: center;
+}
+footer .about .icon{
+    width: 85px;
     display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin: 12px;
+    background: #c5e9c5;
+    border-radius: 15px 15px;
+}
+footer .about .icon img{
+    width: 20px;
     height: 20px;
     object-fit: cover;
-    padding: 0;
+    margin: 4px;
 }
+footer .about hr{background: #ddd;}
+footer .posts hr{background: #ddd;}
+footer .tops,#contact hr{background: #ddd;}
+
+footer .posts,#contact{
+    margin: 10px 6px;
+    display: flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:space-between;
+}
+footer .posts2{
+    margin: 10px 6px;
+    display: flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:space-between;
+}
+footer .posts2 img{
+width: 50px;
+height: 50px;
+object-fit: cover;
+border-radius: 5px 5px;
+margin: 8px;
+}
+footer .posts img{
+width: 50px;
+height: 50px;
+object-fit: cover;
+border-radius: 5px 5px;
+margin: 8px;
+}
+footer .posts,#contact h6{
+    color: #cccccc;
+    font:1em  "Proxima Nova";
+    text-align: center
+}
+footer .posts2 a{
+    margin: 2px 2px;
+   display: inline-flex;
+   align-items: center;
+   justify-content: center;
+   background: #53d153;
+   color: #fff;
+   border-radius: 5px 5px;
+   width: 80px;
+   height: 20px;
+}
+footer .posts h6{
+    color: #cccccc;
+    font:1em  "Proxima Nova";
+    text-align: center
+}
+footer .posts a{
+    margin: 2px 2px;
+   display: inline-flex;
+   align-items: center;
+   justify-content: center;
+   background: #53d153;
+   color: #fff;
+   border-radius: 5px 5px;
+   width: 80px;
+   height: 20px;
+}
+
 /* Desktop version */
 @media only screen and (min-width: 768px) {
     nav {
@@ -571,18 +706,162 @@ footer #about1 #abouticons img{
 
 
     }
+    footer{
+        background: #333333;
+    }
+    #fotcont{
+        display: flex;
+        align-content:center ;
+        justify-content: center;
+        flex-direction: row;
+        margin: auto;
+    }
+    footer .mainbottom{
+        margin: auto;
+        width: 100%;
+        height: 90px;
+        display: flex;
+        background: #3eba3e;
+        align-items: center;
+        justify-content: center;
+    }
+    footer .mainbottom a{
+        display: inline-flex;
+        width: 180px;
+        height: 50px;
+        background: #53d153;
+        align-items: center;
+        justify-content: center;
+        border-radius: 15px 15px;
+        font: 19px  "Proxima Nova";
+        color: #fff;
+        transition: .2s ease-in;
+    }
+    footer .mainbottom a:hover{
+        background: #fff;
+        color: black;
+    
+    }
+    footer .about{
+        margin: 10px 6px;
+        display: inline-flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    footer #fotcont .tops{
+        margin: auto;
+        display: flex;
+        background: red;
+        flex-direction: column
+  
+    
+    }
+    footer #fotcont #contact{
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+  
+    
+    }
+    footer #fotcont .tops h6{
+        font: 1em "Montserrat";
+        letter-spacing: 3px;
+        color: #ddd;
+    }
+    footer #fotcont .about h6{
+        font: 1em "Montserrat";
+        letter-spacing: 3px;
+        color: #ddd;
+    }
+     #fotcont #contact h6{
+        font: 1em "Montserrat";
+        letter-spacing: 3px;
+        color: #ddd;
+    }
+    footer #fotcont .about,.posts p{
+    color: #cccccc;
+    font:1em  "Proxima Nova";
+    text-align: center
+    }
+    footer #fotcont .about .icon{
+        width: 85px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        margin: 12px;
+        background: #c5e9c5;
+        border-radius: 15px 15px;
+    }
+    footer #fotcont .about .icon img{
+        width: 20px;
+        height: 20px;
+        object-fit: cover;
+        margin: 4px;
+    }
+    footer #fotcont .about hr{background: #ddd;}
+    footer #fotcont .posts hr{background: #ddd;}
+    footer #fotcont .tops hr{background: #ddd;}
+    footer #fotcont #contact hr{background: #ddd;}
+    
+    footer #fotcont .posts{
+        margin: 10px 6px;
+        display: inline-flex;
+        flex-direction:row-reverse;
+        align-items: center;
+        justify-content:center;
+    }
+ 
 
-#sectmain2{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-    #sectmain2 .card1 {
+    footer #fotcont .posts img{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+
+    float: left;
+    border-radius: 5px 5px;
+    margin: 8px;
+    }
+    footer #fotcont .posts h6{
+        color: #cccccc;
+        font:1em  "Proxima Nova";
+    float: right;
+    }
+    footer #fotcont .posts2 a{
+        margin: 2px 2px;
+       display: inline-flex;
+       align-items: center;
+       justify-content: center;
+       background: #53d153;
+       color: #fff;
+       border-radius: 5px 5px;
+       width: 80px;
+       height: 20px;
+    }
+    footer #fotcont .posts h6{
+        color: #cccccc;
+        font:1em  "Proxima Nova";
+        text-align: center
+    }
+    footer #fotcont .posts a{
+        margin: 2px 2px;
+       display: inline-flex;
+       align-items: center;
+       justify-content: center;
+       background: #53d153;
+       color: #fff;
+       border-radius: 5px 5px;
+       width: 80px;
+       height: 20px;
+    }
+    
+    footer #fotcont .banner img{
         display: flex;
         align-items: center;
-        justify-self: unset;ce
-        
-        
+        justify-content: center;
+        margin: 50px;
+       width: 1170px;
+       object-fit: cover;
     }
+    
 }
